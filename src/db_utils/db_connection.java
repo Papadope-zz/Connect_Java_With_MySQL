@@ -19,7 +19,7 @@ public class db_connection {
                 + "true&useLegacyDatetimeCode=false&serverTimezone="
                 + "UTC&allowPublicKeyRetrieval=true&useSSL=false";
         String username = "root";
-        String password = "Papadog21!!";
+        String password = "Your_DB_Password";
         try {
             con = (Connection) DriverManager.getConnection(url, "root",
                     "Papadog21!!");
